@@ -1,0 +1,225 @@
+/* Estilos globales */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  width: 100%;
+  background-color: #fefeff;
+  color: #fff;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 50px 20px;
+}
+
+h1,
+h2 {
+  font-weight: normal;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+p {
+  margin-bottom: 30px;
+  line-height: 1.5;
+  color: rgb(15, 137, 137);
+}
+
+.pa {
+  margin-bottom: 30px;
+  line-height: 1.5;
+  color: rgb(15, 137, 137);
+}
+
+.slide {
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.slide img {
+  max-width: 100%;
+  max-height: 400px;
+  object-fit: cover;
+}
+
+/* Estilos del header y la navegación */
+header {
+  background-color:#192231;
+  padding: 20px;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+}
+
+nav ul li {
+  margin-left: 20px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 10px;
+  transition: background-color 0.3s ease;
+}
+
+nav ul li a:hover {
+  background-color: #985e6d;
+}
+
+/* Estilos de las secciones */
+#propuesta,
+#postulate,
+#nosotros {
+  background-color: #192231;
+  padding: 50px 0;
+}
+
+#propuesta h2,
+#postulate h2,
+#nosotros h2 {
+  color: #fff;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+/* Estilos del footer */
+footer {
+  background-color: #98878f;
+  padding: 20px;
+  text-align: center;
+  color: #fff;
+}
+
+/* Estilos de Slides central */
+
+.slideshow-container {
+  position: relative;
+}
+
+.slide {
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.prev,
+.next {
+  position: absolute;
+  top: 50%;
+  padding: 16px;
+  margin-top: -22px;
+  font-size: 18px;
+  font-weight: bold;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  cursor: pointer;
+}
+
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+.divFondo {
+  display: flexbox;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+
+.card-body {
+  gap: 10px;
+  flex-wrap: nowrap;
+justify-content: space-between;
+}
+
+.card {
+  width: 18rem;
+  display: flexbox;
+  flex-direction: row;
+  justify-content: space-between;
+
+
+}
+
+.card-img {
+  gap: 12px;
+}
+
+.h1_pf {
+  color: rgb(255, 0, 0);
+  background-color: #192231;
+
+}
+.section_80 {
+  width: 60%;
+  display: flex;
+  padding: 40px;
+  background-color: #192231;
+  margin-left: 20%;
+}
+
+.center_acordion {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.fondo_evening {
+  background-color: #3860a5;
+  color: white;
+}
+
+.nav1 {
+  background-color: #192231;
+}
+
+.ImagenLogo {
+  width: 300px;
+}
+.header_fad { 
+  display: flex;
+}
+
+.header__faddiv {
+ flex-direction: row;
+ justify-content: space-between;
+}
+
+.fondobody{
+  background-image: url(/images/fondo.jpg);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+h1 {
+  color:#3860a5
+}
